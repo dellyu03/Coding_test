@@ -44,13 +44,13 @@ input()
 
 ### readline()
 
-- 기존 파일 읽기에서는 한줄만 읽지만 stdin.readline()의 경우 한줄씩 파일내의 모든 줄을 읽음.  
+- 파일의 한줄을 읽음
   (c.f) stdin.readlines의 경우 `컨트롤` + `z`를 입력해야 입력을 멈춤  
   백준에서는 입력값을 주어주고 `켠트롤` + `z`를 입력해주지 않으므로 쓸 수 없음
 
 ### strip()
 
-sys.stdin.readline()은 개행문자까지 입력되므로 strip이나 rstrip()을 통해 개행문자를 제거해주어야 함
+sys.stdin.readline()은
 
 - strip() : 왼쪽 오른쪽의 인자로 전달된 문자 제거
 - lstrip() : 왼쪽의 인자로 전달된 문자 제거
