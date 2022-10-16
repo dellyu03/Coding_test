@@ -8,4 +8,3 @@
 #     for element in to_examine:
 #         if to_examine != 0:
 
-#커밋 테스트용 변경점
