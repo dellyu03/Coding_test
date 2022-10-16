@@ -6,7 +6,7 @@ import sys
 N = int(sys.stdin.readline().rstrip())
 stack = []
 for _ in range(N):
-    input_split = sys.stdin.readline().rstip().split()
+    input_split = sys.stdin.readline().rstrip().split()
     order = input_split[0]
     if order == 'push':
         stack.append(input_split[1])
@@ -28,12 +28,15 @@ for _ in range(N):
         else:
             print(stack[-1])
 '''
+#수업 예제 코드
+
+'''
 
 import sys
 N = int(sys.stdin.readline().rstrip())
 stack = []
 for _ in range(N):
-    input_split = sys.stdin.readline().rstip().split()
+    input_split = sys.stdin.readline().rstrip().split()
     order = input_split[0]
     if order == "push":
         stack.append(input_split[1])
@@ -48,3 +51,4 @@ for _ in range(N):
         print(0 if stack else 1)
     elif order == "top":
         print(stack[-1] if stack else -1)
+'''

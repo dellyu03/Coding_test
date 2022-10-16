@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/18258
 #수업 예제 코드
+'''
 from collections import deque
 import sys
 input = sys.stdin.readline
@@ -32,3 +33,4 @@ for  _ in range(N):
             print(-1)
         else:
             print(queue[-1])
+'''
