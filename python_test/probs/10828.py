@@ -30,7 +30,7 @@ for _ in range(N):
 '''
 #수업 예제 코드
 
-'''
+
 
 import sys
 N = int(sys.stdin.readline().rstrip())
@@ -51,4 +51,4 @@ for _ in range(N):
         print(0 if stack else 1)
     elif order == "top":
         print(stack[-1] if stack else -1)
-'''
+

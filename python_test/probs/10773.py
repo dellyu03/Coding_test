@@ -15,7 +15,7 @@ print(sum(stack))
 '''
 
 #수업 예제 코드
-'''
+
 import sys
 
 K = int(sys.stdin.readline().rstrip())
@@ -29,4 +29,4 @@ for _ in range(K):
         stack.append(input)
 
 print(sum(stack))
-'''
+
